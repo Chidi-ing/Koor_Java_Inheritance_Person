@@ -11,8 +11,8 @@ public class Employee extends Person {
         this.setSalary(SMIC);
     }
 
-    public Employee( int identifier, String firstName, String lastName, String email, double salary ) {
-        super(identifier, firstName, lastName, email);
+    public Employee(  String firstName, String lastName, String email, double salary ) {
+        super(firstName, lastName, email);
         this.setSalary(salary);
     }
 

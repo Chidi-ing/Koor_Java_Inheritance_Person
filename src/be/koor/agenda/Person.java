@@ -10,34 +10,23 @@ public class Person {
             "^[\\w.-]+@[\\w.-]+[a-z]{2,}$"
     );
 
-    private int identifier;
+
     private String firstName;
     private String lastName;
     private String email;
 
 
     public Person() {
-        this( 0, "john", "doe", "unknown@anywhere.unk" );
+        this(  "john", "doe", "unknown@anywhere.unk" );
     }
 
-    public Person( int identifier, String firstName, String lastName, String email ) {
-        this.setIdentifier( identifier );
+    public Person(  String firstName, String lastName, String email ) {
+
         this.setFirstName( firstName );
         this.setLastName( lastName );
         this.setEmail( email );
     }
 
-
-    public int getIdentifier() {
-        return identifier;
-    }
-
-    public void setIdentifier( int identifier ) {
-        if ( identifier < 0 )  {
-            throw new RuntimeException( "identifier must be positive" );
-        }
-        this.identifier = identifier;
-    }
 
     public String getFirstName() {
         return firstName;
@@ -84,8 +73,7 @@ public class Person {
     }
 
     @Override public String toString() {
-        return String.format( "%03d: %s %s @ %s",
-                this.identifier,
+        return String.format( "%s %s: %s",
                 this.firstName,
                 this.lastName,
                 this.email );
