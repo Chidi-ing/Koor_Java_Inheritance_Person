@@ -1,3 +1,5 @@
+package be.koor.agenda;
+
 import java.util.regex.Pattern;
 
 public class Person {
@@ -82,7 +84,7 @@ public class Person {
     }
 
     @Override public String toString() {
-        return String.format( "%d: %s %s @ %s",
+        return String.format( "%03d: %s %s @ %s",
                 this.identifier,
                 this.firstName,
                 this.lastName,
