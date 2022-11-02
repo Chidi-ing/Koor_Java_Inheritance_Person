@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0974c718-79ac-4017-86cf-a5ef5b79ac20" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/koor/agenda/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/koor/agenda/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/koor/agenda/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/koor/agenda/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/koor/agenda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/koor/agenda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/koor/agenda/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/koor/agenda/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667393092483</updated>
-      <workItem from="1667393094793" duration="14097000" />
+      <workItem from="1667393094793" duration="16012000" />
     </task>
     <servers />
   </component>
